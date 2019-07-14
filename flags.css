@@ -1,0 +1,40 @@
+body {
+  margin: 0 auto;
+  padding: 8rem;
+  text-align: center;
+  background-color: #ffdab9;
+}
+
+img {
+  width: 12rem;
+  height: 10rem;
+  margin: 0 1rem;
+  opacity: 0.8;
+}
+
+#intro {
+  margin: 0 auto;
+  width: 10rem;
+  padding: 2rem 0;
+  font-family: Roboto Mono, sans-serif;
+}
+
+#flag {
+  opacity: 0.5;
+}
+
+#card1,#card2,#card3{
+  display: none;
+  margin: 0 auto;
+  width: 40rem;
+  padding: 2rem 0;
+  font-family: Roboto Mono, sans-serif;
+}
+
+.active {
+  display: block;
+}
+
+.flag-picked {
+  opacity: 0.9;
+}
